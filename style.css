@@ -1,0 +1,53 @@
+body
+{
+ background: linear-gradient(aquamarine 0%, cyan 100%);
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.img1 {
+    margin-left: 10;
+    border-radius: 20;
+    border-style: solid;
+    border-width: 3;
+    border-color:cornflowerblue;
+}
+.selfimg {
+    width: 100px;
+    border-radius: 50px;
+margin-left: 398px;
+}
+
+#bio {
+    background: floralwhite;
+}
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: blue;
+    margin: 25px auto;
+}
+.menu {
+    list-style: none;
+    font-family: monospace;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    position:fixed;
+    color: black;
+}
+li {
+    display: inline;
+}
+li:hover {
+    background-color: darkgreen;
+    color: darkblue;
+
+}
+a {
+    text-decoration: none
+}
+html {
+    scroll-behavior: smooth;
+}
